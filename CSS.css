@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+h3{
+    color: brown;
+}
+body{
+   background-color: azure;
+   font-family: 'Square Peg';
+   font-size: large;
+   line-height: 40px;
+   font-weight: bold;
+   text-decoration: wavy ;
+   font-style: italic;
+   letter-spacing: 2px;
+   word-spacing: 5px;
+
+}
+/* Class */
+.card{
+    padding: 10px;
+    background-color: aquamarine;
+    margin-bottom: 10px;
+}
+.card p{
+    background-color: blueviolet;
+}
+.html{
+    background-color: mediumslateblue;
+    padding: 10px;
+    color: antiquewhite;
+}
+.css{
+    background-color:#2965f1 ;
+    color: azure;
+    padding: 10px;
+}
+/*ID*/
+#header{
+    background-color: blueviolet;
+    padding: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.css p{
+    font-size: 20px;
+}
+
+.color-1{
+    color: maroon;
+}
+/* RedGreenBlue*/
+/*00-ff*/
+/*000 - black*/
+.color-2{
+    color: lawngreen;
+}
+/* 0-2558*/
+.color-3{
+color: rgb(0, 150, 0);
+opacity: 0.2;
+}
+.color-4{
+    color: rgba(0, 200,0 , 0.3);
+}
+.border-1{
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 70%;
+}
+.border-2{
+    border-bottom: 2px solid red;
+}
+.box{
+    background: cadetblue;
+    color: beige;
+    padding: 15px 40px;
+    border: 4px solid #FF00FF;
+    margin: 15px;
+}
+a{
+    color: black;
+    text-decoration: dashed;
+    transition: all .2s;
+}
+a:hover{
+    color: #FF00FF;
+    font-size: 2rem;
+}
+a:visited{
+color: aqua;
+}
+
+a:active{
+    color: blue;
+}
+.css:hover{
+    background-color: pink;
+}
+.btn{
+    background-color: mediumseagreen;
+    color: aliceblue;
+    border: #FF00FF;
+    cursor: all-scroll;
+    border-radius: 5px;
+    padding: 5px solid white;
+
+}
+.btn:hover{
+background-color: darkgreen;
+font-family: inherit;
+}
+.list li{
+    margin-bottom: 10px;
+    border-bottom: 2px solid salmon;
+}
+.table{
+    width: 100%;
+}
+.table td{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.table td:hover {
+    background:yellowgreen;
+}
+.table tr:nth-child(even){
+    background-color: blue;
+}
+.table td:nth-child(2), .table td:nth-child(4){
+    background-color: darkmagenta;
+}
+.navbody{
+    background-color: lightcoral;
+    padding: 10px;
+}
+.navbody ul{
+    list-style: none;
+    margin: 0px;
+    padding: auto;
+    display: flex;
+}
+.navbody ul li{
+    margin-right: 10px;
+}
+.navbody ul li:hover{
+    background-color: magenta;
+
+}
+.navbody ul li:last-child{
+    margin-right: 0;
+}
+/*inline, block, inline-block*/
+.inline{
+    display: block;
+
+}
+.box{
+    width: 29%;
+    border: 1px solid black;
+    background-color: lightgray;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.box:hover{
+    background-color: darkmagenta;
+}
+.image{
+    margin: 40px auto;
+    display: block;
+    width: 500px;
+
+}
+.playground{
+    position: relative;
+    border: 4px solid blue;
+    height: 400px;
+    padding: 20px;
+}
+.pos-box{
+    /* static,absolute(left,right,top,bottom), fixed*/
+    /*position: fixed;
+    top: 0px; */
+    width: 100px;
+    height: 100px;
+    background-color: lightseagreen;
+}
+.navbody{
+    position: fixed;
+    top: 0px;
+}
+#header{
+    margin-top: 60px;
+}
